@@ -1,10 +1,10 @@
 # Net&Sys Assignment: Running Containers for Application Development
 
-Group Name: InfraViper. 
+Group Name: **InfraViper**. 
 
 Team Mates:
-1. Muhammad Hanif Bin Md Kamal 2114963
-2. Muhammad Fikri Bin Mohammad Isa 2110105
+1. **Muhammad Hanif Bin Md Kamal 2114963**
+2. **Muhammad Fikri Bin Mohammad Isa 2110105**
 3. __Fill name__ and __matric no__
 
 ## Rules
@@ -22,8 +22,8 @@ Team Mates:
 
 ***Questions:***
 
-1. What is the link of the fork Net&Sys Assignment in your repository. ***(1 mark)*** (https://github.com/hanifkamal02/NatSysProject).
-2. How many files and folders are in this repository. ***(1 mark)*** There are 1 folder and 7 files.
+1. What is the link of the fork Net&Sys Assignment in your repository. ***(1 mark)*** **(https://github.com/hanifkamal02/NatSysProject).**
+2. How many files and folders are in this repository. ***(1 mark)*** **There are 1 folder and 7 files including 6 files inside the folder.**
 
 
 ## Exploring github codespaces
@@ -55,9 +55,9 @@ Team Mates:
 
 ***Questions:***
 
-1. What is default OS used to run the virtual environment for codespaces. ***(1 mark)*** __Fill answer here__.
-2. What are the two options of RAM, disk and vcpu configuration you can have in running codespaces . ***(1 mark)*** __Fill answer here__.
-3. Why must we commit and sync our current work on source control? ***(1 mark)*** __Fill answer here__.
+1. What is default OS used to run the virtual environment for codespaces. ***(1 mark)*** **Windows OS.**
+2. What are the two options of RAM, disk and vcpu configuration you can have in running codespaces . ***(1 mark)*** **Basic configuration for light use and advanced configuration for heavy use.**
+3. Why must we commit and sync our current work on source control? ***(1 mark)*** **For satefy reason by creating a backup for the work and making collaboration to allow others to see changes.**
 
 ## Exploring the Terminal
 
@@ -74,24 +74,24 @@ codespace
 
 Look at the TERMINAL tab. Run the following commands and provide the output here. 
 
-1. Run the command **pwd** . ***(1 mark)*** ![1](https://github.com/hanifkamal02/NatSysProject/assets/134986587/31eec059-19b3-43b6-9547-4dcc4dd5f622)
+1. Run the command **pwd** . ***(1 mark)*** ![1](1.png)
 .
-2. Run the command **cat /etc/passwd** . ***(1 mark)*** __Fill answer here__.
-3. Run the command **df** . ***(1 mark)*** __Fill answer here__.
-4. Run the command **du** . ***(1 mark)*** __Fill answer here__.
-5. Run the command **ls** . ***(1 mark)*** __Fill answer here__.
-6. Run the command **ls -asl** . ***(1 mark)*** __Fill answer here__.
-7. Run the command **free -h** . ***(1 mark)*** __Fill answer here__.
-8. Run the command **cat /proc/cpuinfo** . ***(1 mark)*** __Fill answer here__.
-9. Run the command **top** and type **q** to quit. ***(1 mark)*** __Fill answer here__.
-10. Run the command **uname -a**. ***(1 mark)*** __Fill answer here__.
-11. What is the available free memory in the system. ***(1 mark)*** __Fill answer here__.
-12. What is the available disk space mounted on /workspace. ***(1 mark)*** __Fill answer here__.
-13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __Fill answer here__.
-14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** __Fill answer here__.
-15. What is the TLB size of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
-16. What is the CPU speed of the Virtual CPU. ***(1 mark)*** __Fill answer here__.
-17. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** __Fill answer here__.
+2. Run the command **cat /etc/passwd** . ***(1 mark)*** ![2](2.png).
+3. Run the command **df** . ***(1 mark)*** ![3](3.png).
+4. Run the command **du** . ***(1 mark)*** ![4](4.png).
+5. Run the command **ls** . ***(1 mark)*** ![5](5.png).
+6. Run the command **ls -asl** . ***(1 mark)*** ![6](6.png).
+7. Run the command **free -h** . ***(1 mark)*** ![7](7.png).
+8. Run the command **cat /proc/cpuinfo** . ***(1 mark)*** ![8](8.png).
+9. Run the command **top** and type **q** to quit. ***(1 mark)*** ![9](9.png).
+10. Run the command **uname -a**. ***(1 mark)*** ![10](10.png).
+11. What is the available free memory in the system. ***(1 mark)*** **254MiB.**
+12. What is the available disk space mounted on /workspace. ***(1 mark)*** **16701796kB.**
+13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** **Version is 6.5.0-1019-azure and hardware architecture is x86_64.**
+14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** **ls is the list name of files and directory in the current directory. ls -asl provide detail listing including hidden files, file sizes and additional information.**
+15. What is the TLB size of the Virtual CPU. ***(1 mark)*** **2560 4k pages.**
+16. What is the CPU speed of the Virtual CPU. ***(1 mark)*** **3241.017.GHz**
+17. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** **node with process (PID2142) consume most CPU cycles with 1.3% of the CPU.**
 
 ## Running your own container instance.
 
@@ -151,8 +151,8 @@ f65be1987f84   debian    "bash"    19 minutes ago   Exited (137) 18 seconds ago 
 
 ***Questions:***
 
-1. Are files in the container persistent. Why not?. ***(1 mark)*** __Fill answer here__.
-2. Can we run two, or three instances of debian linux? . ***(1 mark)*** __Fill answer here__.
+1. Are files in the container persistent. Why not?. ***(1 mark)*** **The file in the container are not persistent because they are designed to be lightweight and disposable.**
+2. Can we run two, or three instances of debian linux? . ***(1 mark)*** **Yes we can run two or three instances.**
 
 ## Running your own container with persistent storage
 
@@ -204,9 +204,9 @@ docker run --detach -v /workspaces/OSProject/webpage:/usr/local/apache2/htdocs/ 
 
 ***Questions:***
 
-1. What is the permission of folder /usr/local/apache/htdocs and what user and group owns the folder? . ***(2 mark)*** __Fill answer here__.
-2. What port is the apache web server running. ***(1 mark)***
-3. What port is open for http protocol on the host machine? ***(1 mark)***
+1. What is the permission of folder /usr/local/apache/htdocs and what user and group owns the folder? . ***(2 mark)*** **The permission is -rw-r--r--. The user and group is codespace.**
+2. What port is the apache web server running. ***(1 mark)*** **Port 8080.**
+3. What port is open for http protocol on the host machine? ***(1 mark)*** **Port 80.**
 
 ## Create SUB Networks
 
@@ -225,11 +225,11 @@ docker run -itd --net rednet --name c2 busybox sh
 ```
 ***Questions:***
 
-1. Describe what is busybox and what is command switch **--name** is for? . ***(2 mark)*** __Fill answer here__.
-2. Explore the network using the command ```docker network ls```, show the output of your terminal. ***(1 mark)***
-3. Using ```docker inspect c1``` and ```docker inspect c2``` inscpect the two network. What is the gateway of bluenet and rednet.? ***(1 mark)***
-4. What is the network address for the running container c1 and c2.
-5. Using the command ```docker exec c1 ping c2```, which basically issue a ping from container c1 to c2. Are you able to ping? Show your output . ***(1 mark)***
+1. Describe what is busybox and what is command switch **--name** is for? . ***(2 mark)*** **Busybox is a small and single binary that contains many common UNIX utilities. The --name command is for giving a custom name to a container.**
+2. Explore the network using the command ```docker network ls```, show the output of your terminal. ***(1 mark)***![2](12.png)
+3. Using ```docker inspect c1``` and ```docker inspect c2``` inspect the two network. What is the gateway of bluenet and rednet.? ***(1 mark)***![3](11.png)
+4. What is the network address for the running container c1 and c2. **172.20.0.3 for c1 and 172.19.0.2 for c2**
+5. Using the command ```docker exec c1 ping c2```, which basically issue a ping from container c1 to c2. Are you able to ping? Show your output . ***(1 mark)***![5](13.png)
 
 ## Bridging two SUB Networks
 1. Let's try this again by creating a network to bridge the two containers in the two subnetworks
